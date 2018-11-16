@@ -21,4 +21,13 @@ public class ApplicationConfig {
          return resolver;
      }
 
+      /*@Bean
+    public InternalResourceViewResolver viewResolver(){
+        InternalResourceViewResolver irvr = new InternalResourceViewResolver();
+        irvr.setPrefix("/WEB-INF/pages/");
+        irvr.setSuffix(".jsp");
+        return irvr;
+    }*/
+
+
 }
